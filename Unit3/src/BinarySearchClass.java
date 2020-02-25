@@ -2,7 +2,6 @@
 public class BinarySearchClass {
 
 	
-	//Lucas eats cheese
 	
 	public BinarySearchClass()
 	{

@@ -34,7 +34,7 @@ public class ItemClass {
 	}
 
 	public void setPet(String d) {
-		pet = d;
+		pet = d.toUpperCase();
 	}
 
 	public double getPrice() {

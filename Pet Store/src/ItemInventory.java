@@ -4,8 +4,19 @@ import java.util.*;
 public class ItemInventory {
 
 	public static void main(String[] args) {
-		
-		
+		InvoiceClass Receipt = new InvoiceClass();
+		int x = 0;
+		while(x != 1)
+		{
+			System.out.println("Please enter price of the item");
+			Scanner input3 = new Scanner(System.in);
+			double price = input3.nextDouble();
+			if (price = -1)
+			{
+				x = 1;
+			}
+			else 
+		{
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter the item name");
 		int quantity;
@@ -22,18 +33,17 @@ public class ItemInventory {
 		Scanner input2 = new Scanner(System.in);
 		quantity = input2.nextInt();
 		
-		System.out.println("Please enter price of the item");
-		Scanner input3 = new Scanner(System.in);
-		price = input3.nextDouble();
+		ItemClass name = new ItemClass();
+		name.addItems(price, quantity, name, pet);
+		Receipt.addItems(name);
+		}
+		System.out.println(Receipt.printInvoice);
 		
-		ItemClass Dogfood = new ItemClass();
-		Dogfood.addItems(price, quantity, name, pet);
+		}
+	}
+}
 		
-		
-		
-		
-		
-		
+	
 		
 		
 		

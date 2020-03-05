@@ -55,7 +55,10 @@ public class MovieClass {
 		return year;
 	}
 	
-	
+	public String toString(MovieClass)()
+	{
+		
+	}
 	
 	
 	
